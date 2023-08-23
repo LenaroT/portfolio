@@ -15,7 +15,7 @@
     margin: 1rem 0;
 }
 
-.experiencias li .title {
+.experiencias li h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,7 +24,7 @@
     margin-bottom: .5rem;
 }
 
-.experiencias li .title.github::before {
+.experiencias li h3.github::before {
     content: '';
     display: inline-block;
     width: 1rem;
